@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>MI PRIMERA PAGINA</title>
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <nav>
+                <a href="htts://wwww.youtube.com"><i class="fa fa-youtube"></i> YouTube</a>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#">LINKS</a>
+                <a href="#">LINKS</a>
+                <a href="#">LINKS</a>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h2>MI PAGINA WEB</h2>
+            </article>
+            <aside>
+
+            </aside>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+<style>
+    .principal{
+        width: 90vw;
+        height: 95vh;
+        margin:0 auto;
+        background: rgb(207, 241, 243);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(238, 193, 236);
+    }
+    nav{
+        background: rgb(223, 247, 247);
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header nav a{
+        border: black solid 1px;
+        color: black;
+        font-family: calibri;
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background: pink;
+    }
+    section{
+        height: 70%;
+        display: flex;
+        gap: 10px;
+    }
+    article{
+        border: pink solid 1px;
+        width: 70%;
+        background: pink;
+    }
+    aside{
+        border: green solid 1px;
+        width: 30%;
+        background: green;
+    }
+    footer{
+        height: 20%;
+        background-color: cadetblue;
+    }
+    @media  (max-width: 1000px) {
+        section{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+</html>
